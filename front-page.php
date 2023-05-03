@@ -7563,7 +7563,7 @@
                                                     </div>
                                                     <footer class="case-card__footer">
                                                         <div class="case-card__action">
-                                                            <a href="<?php the_permalink(); ?>>" class="case-card__button button button--primary" data-id-case="<?php echo $cases_slider_item->ID; ?>">
+                                                            <a href="javascript:;" class="case-card__button button button--primary js-case" data-hystmodal="#case" data-id-case="<?php echo $cases_slider_item->ID; ?>">
                                                                 Посмотреть кейс
                                                             </a>
                                                         </div>
